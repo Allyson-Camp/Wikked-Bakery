@@ -4,12 +4,22 @@
  h1 {
   color: brown;
  }
+
+ .welcome-div p {
+  color: rgb(11, 91, 91);
+ }
+ 
 .welcome-div {
 color: rgb(162, 91, 91);
 font-size: 20px;
 line-height: 30px;
 }
 
-.featured-recipe {
+.featured-recipe-div h2 {
+  color: rgb(162, 91, 91);
+}
+
+.featured-recipe-div {
   color: rgb(170, 147, 147);
 }
+
