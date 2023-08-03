@@ -1,32 +1,51 @@
-* {
-    /* background-color: rgb(0, 0, 0); */
+body {
     background-image: url("/img/steamy-coffee-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1 {
-    color: brown;
-}
-
-.welcome-div p {
-    color: rgb(11, 91, 91);
+color: rgb(103, 152, 138);
 }
 
 .welcome-div {
-    /* background-image: url("/img/steamy-coffee-img.jpg"); */
-    color: rgb(162, 91, 91);
+    color: rgb(103, 152, 138);
     font-size: 20px;
-    line-height: 30px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-.featured-recipe-div h2 {
-    color: rgb(162, 91, 91);
+.sinful {
+    color: rgb(103, 152, 138)
 }
 
-.featured-recipe-div {
-    color: rgb(170, 147, 147);
-}
-
-#steamy-img {
-    width: 50%;
+.featured-recipe-sidebar {
+    color: rgb(103, 152, 138);
+    background-color: black;
+    border: 5px rgb(103, 152, 138) ridge;
+    width: 30%;
+    box-sizing: border-box;
     float: right;
+    padding: 2px;
+    margin: 5px;
+}
+
+.featured-recipe-sidebar h3 {
+    color: rgb(103, 152, 138);
+    text-align: center;
+}
+
+.featured-recipe-sidebar p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.take-home-price {
+  font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#take-home-img {
+  width: 100%;
 }
