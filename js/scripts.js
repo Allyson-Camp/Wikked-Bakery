@@ -16,6 +16,8 @@ window.onload = function () {
       document.body.style.backgroundColor = "purple";
     }
     //querySelector can work when selecting an element itself or if you target a class by using the .
+    //when pic is comented in find a way for it to be hidden when lightBtn is pressed and the bakcgroundbolor to be white??
+  
     // const lightBtn = document.getElementById("lightBtn");
     // lightBtn.onclick = function () {
     //     document.body.style.backgroundColor = "red";
